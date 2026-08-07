@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>carrosserie automobile D&K</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    min-height:100vh; display:flex; align-items:center; justify-content:center;
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    background:linear-gradient(135deg,#667eea,#764ba2); padding:20px;
+  }
+  .card {
+    background:rgba(255,255,255,.97); border-radius:24px; padding:40px 30px;
+    width:100%; max-width:360px; text-align:center;
+    box-shadow:0 20px 60px rgba(0,0,0,.35);
+  }
+  .avatar {
+    width:100px; height:100px; border-radius:50%;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    color:#fff; font-size:38px; font-weight:700;
+    display:flex; align-items:center; justify-content:center; margin:0 auto 16px;
+  }
+  h1 { font-size:24px; color:#222; }
+  .role { color:#888; margin:6px 0 24px; font-size:15px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .grid .btn {
+    display:flex; align-items:center; justify-content:center; gap:8px;
+    padding:13px; border-radius:14px; color:#fff; text-decoration:none;
+    font-weight:600; font-size:14px; transition:transform .15s, box-shadow .15s;
+  }
+  .btn svg { width:22px; height:22px; }
+  .btn:hover { transform:translateY(-2px); box-shadow:0 8px 20px rgba(0,0,0,.25); }
+  .btn.full { grid-column:1 / -1; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">?c</div>
+    <h1>carrosserie automobile D&K</h1>
+    
+    <div class="grid">
+      <a class="btn" href="mailto:salembouguelmouna@gmail.com" target="_blank" rel="noopener" style="background:#EA4335"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" fill="#fff"/></svg><span>Email</span></a>
+      <a class="btn" href="https://www.tiktok.com/@carrosserievoiture?_r=1" target="_blank" rel="noopener" style="background:#000000"><svg viewBox="0 0 24 24"><path d="M16.6 3c.4 2 1.8 3.4 3.9 3.6v2.9c-1.5 0-2.8-.5-3.9-1.3v6.2c0 4.2-3.2 6.6-6.6 6.6A5.4 5.4 0 0 1 4.6 15c0-5.4 6.6-7 8.7-4.5v3a5 5 0 0 0-2.1-.8c-1.4 0-2.4 1.2-2.4 2.5a2.5 2.5 0 0 0 3.9 2.4V3h3.9z" fill="#fff"/></svg><span>Tiktok</span></a>
+
+    </div>
+  </div>
+</body>
+</html>
